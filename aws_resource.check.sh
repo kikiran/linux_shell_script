@@ -10,16 +10,20 @@
 #AWS LAMBDA
 #AWS IAM Users
 
-set -X
+set -x
 #list of S3 buckets
+echo 'Print list of S3 buckets'
 aws s3 ls
 
 #list of EC2 instances
+echo 'Print list of EC2 instances'
 aws ec2 describe-instances
 
 #list of lambda 
+echo 'Print list of Lambda functions'
 aws lambda list-functions
 
 #list of IAM users
+echo 'Print list of IAM Users'
 aws iam list users
 
