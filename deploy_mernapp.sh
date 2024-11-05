@@ -17,7 +17,7 @@ sudo apt-get install -y git
 fi
 
 # Installation of NodeJS
-if command -v nvm >/ev/null 2>&1; then
+if command -v nvm >/dev/null 2>&1; then
 echo "nvm already Installed" 
 else
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
