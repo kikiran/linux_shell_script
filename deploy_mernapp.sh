@@ -26,7 +26,12 @@ nvm install --lts
 fi
 
 #Clone Project in server
+if [ ! -d "mern_crud_app" ]; then
+echo "Cloning the project"
 git clone https://github.com/kikiran/mern_crud_app.git
+else
+echo "Project Already exists"
+
 
 cd mern_curd_app
 
