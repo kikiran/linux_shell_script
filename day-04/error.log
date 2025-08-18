@@ -1,0 +1,40 @@
+[2025-08-18 10:00:00] INFO  - System boot initiated
+[2025-08-18 10:01:10] INFO  - Network interfaces initialized
+[2025-08-18 10:02:33] INFO  - Starting database service
+[2025-08-18 10:03:01] ERROR - Failed to bind to port 5432
+[2025-08-18 10:03:15] INFO  - Retrying database startup
+[2025-08-18 10:03:20] INFO  - Database service started
+[2025-08-18 10:05:45] WARN  - Swap usage at 75%
+[2025-08-18 10:10:00] INFO  - Starting backup job
+[2025-08-18 10:10:10] WARN  - Disk space running low: 3GB left
+[2025-08-18 10:10:15] ERROR - Backup failed due to insufficient disk space
+[2025-08-18 10:12:00] INFO  - Sending alert email to admin
+[2025-08-18 10:13:00] INFO  - Log rotation started
+[2025-08-18 10:13:10] INFO  - Old logs archived successfully
+[2025-08-18 10:15:00] INFO  - Checking system health
+[2025-08-18 10:15:10] WARN  - CPU usage above 85%
+[2025-08-18 10:16:45] ERROR - Service "nginx" crashed unexpectedly
+[2025-08-18 10:17:10] INFO  - Attempting to restart "nginx"
+[2025-08-18 10:17:15] INFO  - "nginx" restarted successfully
+[2025-08-18 10:20:00] INFO  - Monitoring service running
+[2025-08-18 10:22:00] INFO  - System health check passed
+[2025-08-18 10:25:00] INFO  - Updating package lists
+[2025-08-18 10:25:10] INFO  - Packages updated
+[2025-08-18 10:27:45] WARN  - High memory usage: 92%
+[2025-08-18 10:30:00] ERROR - Memory leak detected in "app_server"
+[2025-08-18 10:30:10] INFO  - Restarting "app_server"
+[2025-08-18 10:30:15] INFO  - "app_server" restart successful
+[2025-08-18 10:32:00] INFO  - Starting nightly cleanup
+[2025-08-18 10:33:00] INFO  - Removed 1200 temporary files
+[2025-08-18 10:35:00] INFO  - Starting full system scan
+[2025-08-18 10:36:45] WARN  - Malware scan skipped for /mnt/external
+[2025-08-18 10:37:00] ERROR - Scan failed: permission denied
+[2025-08-18 10:38:00] INFO  - Attempting scan with elevated permissions
+[2025-08-18 10:38:30] INFO  - Scan completed with 0 threats
+[2025-08-18 10:40:00] INFO  - Starting report generation
+[2025-08-18 10:41:00] INFO  - Report saved to /var/reports/daily.html
+[2025-08-18 10:45:00] WARN  - Network latency detected
+[2025-08-18 10:46:10] INFO  - Pinging gateway to test connectivity
+[2025-08-18 10:47:00] INFO  - Ping successful: latency 40ms
+[2025-08-18 10:50:00] INFO  - All services running normally
+[2025-08-18 10:55:00] INFO  - System ready for scheduled maintenance
